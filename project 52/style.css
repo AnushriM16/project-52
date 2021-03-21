@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: olive;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    color: rgb(95, 69, 167);
+}
+body{
+    margin: 0px;
+    background-color: darkgrey;
+}
+.grid{
+    padding: 20px;
+    margin:20px ;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid img{
+    border: darkslateblue;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 50px;
+    background-color: rgb(145, 142, 103);
+    margin: 30px;
+    padding: 40px;
+
+    width:310px;
+    font-family: fantasy;
+}
+.about us{
+    background-color: deeppink;
+}
+a:link{
+    color: bisque;
+}
+a:visited{
+    color: bisque;
+}
+.origami:hover{
+    transform: scale(1,3) ;
+}
